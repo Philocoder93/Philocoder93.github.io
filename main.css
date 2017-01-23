@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  flex-grow: 1;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+main {
+  width: 400px;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+aside {
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer {
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+
+}

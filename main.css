@@ -1,38 +1,49 @@
 body {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 header {
-  height: 200px;
-  background-color: red;
+  height: 150px;
+  background-color: #9C2E33;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+header h1 {
+  display: block;
 }
 .wrapper {
   flex-grow: 1;
-  background-color: blue;
+  background-color: #5C5D5F;
   display: flex;
   justify-content: center;
 }
 main {
   width: 400px;
-  background-color: purple;
+  background-color: #636E0D;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
 }
+main article {
+  box-sizing: border-box;
+  padding: 15px;
+}
 aside {
   width: 300px;
-  background-color: yellow;
+  background-color: #EE6030;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 footer {
-  height: 200px;
-  background-color: green;
+  height: 50px;
+  background-color: #9C2E33;
   display: flex;
   justify-content: center;
 

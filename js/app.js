@@ -15,12 +15,6 @@
 
   function routerFunction($stateProvider, $urlRouterProvider) {
     $stateProvider
-      .state("home", {
-        url: "/home",
-        templateUrl: "/js/main/home.html",
-        controller: "homeCrtl",
-        controllerAs: "homeVM"
-      })
       .state("about", {
         url: "/about",
         templateUrl: "/js/main/about.html",
@@ -39,7 +33,7 @@
         controller: "contactCrtl",
         controllerAs: "contactVM"
       })
-    $urlRouterProvider.otherwise("/home")
+    $urlRouterProvider.otherwise("/about")
   }
 
 }())

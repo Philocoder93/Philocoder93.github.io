@@ -7,8 +7,5 @@
   ])
 
   function aboutCrtlFunction() {
-    this.hello = function () {
-      console.log("this is the other thing right here")
-    }
   }
 }())

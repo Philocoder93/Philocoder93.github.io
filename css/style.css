@@ -81,3 +81,14 @@ img {
   justify-content: flex-start;
   align-items: center;
 }
+.left {
+  float: right;
+  width: 400px;
+}
+.right {
+  float: left;
+  width: 400px;
+}
+.wide {
+  width: 800px !important;
+}

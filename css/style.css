@@ -1,9 +1,7 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 body {
-  margin: 0;
-  border: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,8 +13,8 @@ header {
   background-color: #232323;
 }
 main {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
+  margin-bottom: 49px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -27,131 +25,112 @@ footer {
   height: 1px;
   background-color: white;
 }
-ul {
-  float: right;
-  height: inherit;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-li {
-  height: inherit;
-  width: 120px;
-  float: right;
-  display: block;
-}
-li a {
-  height: inherit;
-  width: inherit;
-  display: block;
-  color: white;
+a {
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
 }
-li a span {
-  color: inherit;
-}
-li a:hover {
-  background-color: white;
-  color: black;
+p {
+  font-weight: bold;
+  text-align: left;
 }
 article {
-  width: 65vw;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 50px;
+}
+.nav {
+  height: inherit;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  background-color: black;
+}
+.nav > * {
+  height: inherit;
+  width: 120px;
+  float: inherit;
+  background-color: inherit;
+}
+.nav > * a {
+  height: inherit;
+  width: inherit;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: inherit;
+}
+.nav > * a span {
+  color: inherit;
+  background-color: inherit;
+}
+.nav > * a:hover {
+  color: black;
+  background-color: white;
+}
+.text-box-light-gray {
+  background-color: #F3F3F3;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text-box-light-gray > h1 {
+  margin:10px;
+  border:10px;
+}
+.text-box-dark-gray {
+  background-color: #232323;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text-box-dark-gray div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-box-dark-gray div a {
+  margin: 10px;
+}
+.text-box-dark-gray p {
+  font-size: 20px;
+}
+.headshot {
+  margin-bottom: 50px;
+  border-radius: 100%;
 }
 iframe {
   height: 100vh;
   width: 75vw;
 }
-a.contact {
-  margin-top: 15px;
-}
-img {
-  border-radius: 50%;
-}
-.about {
-  text-align: center;
-  width: 55vw;
+.contact {
+  background-color: #F3F3F3;
+  box-sizing: border-box;
+  padding: 15px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.contact div {
+  display: flex;
+  display: space-around;
+  justify-content: space-around;
   align-items: center;
 }
-.left {
-  float: right;
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.right {
-  float: left;
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-img.left {
-  width: 300px;
-}
-img.right {
-  width: 300px;
-}
-.wide {
-  width: 800px !important;
-}
-.headshot {
-  margin-bottom: 50px;
-}
-.big-text {
-  font-size: 150%;
-}
-.black-bloc {
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  height: 50px;
-  width: 200px;
-  color: white;
-  font-style: normal;
-  text-decoration: none !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.black-bloc > * {
-  color: white;
-  font-style: normal;
-  text-decoration: none !important;
-}
-.text-bloc {
+.contact a {
+  display: block;
+  margin: 15px;
   background-color: #232323;
-  border-radius: 10px;
-  color: white;
-}
-article > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-article > div > * {
-  padding: 25px 25px;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-.bottom {
-  margin-bottom: 25px;
-}
-p {
-  font-weight: bold;
-  text-align: left;
+  padding: 10px;
 }

@@ -20,12 +20,6 @@
         controller: "aboutCrtl",
         controllerAs: "aboutVM"
       })
-      .state("contact", {
-        url: "/contact",
-        templateUrl: "/js/main/contact.html",
-        controller: "contactCrtl",
-        controllerAs: "contactVM"
-      })
       .state("resume", {
         url: "/resume",
         templateUrl: "/js/main/resume.html",

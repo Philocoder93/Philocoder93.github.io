@@ -9,19 +9,19 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/main/main.js"></script>
     <script type="text/javascript" src="js/main/about.controller.js"></script>
-    <script type="text/javascript" src="js/main/home.controller.js"></script>
-    <script type="text/javascript" src="js/main/projects.controller.js"></script>
     <script type="text/javascript" src="js/main/contact.controller.js"></script>
-    <script type="text/javascript" src="js/navigation/nav.js"></script>
-    <script type="text/javascript" src="js/navigation/nav.controller.js"></script>
+    <script type="text/javascript" src="js/main/resume.controller.js"></script>
+    <script type="text/javascript" src="js/main/nav.controller.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <title>Isaac Duarte's Portfolio</title>
   </head>
   <body>
     <header>
-      <ul ng-controller="navigation as navigationVM">
-        <li><a data-ui-sref="about"><span>About Me</span></a></li>
+      <ul ng-controller="navCrtl as navVM">
         <li><a data-ui-sref="contact"><span>Contact Me</span></a></li>
+        <li><a data-ui-sref="resume"><span>My Resume</span></a></li>
+        <li><a data-ui-sref="about"><span>About Me</span></a></li>
       </ul>
     </header>
     <main data-ui-view>

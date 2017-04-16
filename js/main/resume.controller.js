@@ -2,11 +2,11 @@
 (function(){
   angular
   .module("main")
-  .controller("projectsCrtl", [
-    projectsCrtlFunction
+  .controller("resumeCrtl", [
+    resumeCrtlFunction
   ])
-  
-  function projectsCrtlFunction() {
+
+  function resumeCrtlFunction() {
     this.hello = function () {
       console.log("this is the first thing that I want to be in this thing")
     }

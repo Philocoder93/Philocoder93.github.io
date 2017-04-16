@@ -1,3 +1,6 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   margin: 0;
   border: 0;
@@ -147,4 +150,8 @@ a {
 }
 .bottom {
   margin-bottom: 25px;
+}
+p {
+  font-weight: bold;
+  text-align: left;
 }
